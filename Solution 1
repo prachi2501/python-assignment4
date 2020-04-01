@@ -1,0 +1,66 @@
+x=eval(input())
+
+a=int(input)) 
+
+n=[]
+
+for i in x:
+
+if i[0] not in n:
+
+n.append(i[0])
+
+y={}
+
+for i in n:
+
+y[i]=[]
+
+for i in y:
+
+for j in x:
+
+if i==[0]:
+
+y[i].append(j[1])
+
+dct={} 
+
+c=0
+
+for i in range (len(y)):
+
+for j in range(i+1,len(y)):
+
+b=len(set(y[list(y)[i]]) and set(y[list(y)[j]])) / float(len(set(y[list(y)[i]]) | set(y[list(y)[y]])))* 100
+
+if (i!=j):
+
+dct[c]=[round(b,2),list(y)[j],list(y)[i]]
+
+c=c+1
+
+p=list(dct.value())
+
+for k in range(len(p)):
+
+if p[k][1]>p[k][2]:
+
+f=p[k][1]
+
+p[k][1]=p[k][2]
+
+p[k][2]=f
+
+p.sort(key = lambda p:p[0], reverse =True)
+
+x=[]
+
+for b in range(a):
+
+x+ = [(p[b][1],p[b][2])]
+
+ 
+
+Print (x) 
+
